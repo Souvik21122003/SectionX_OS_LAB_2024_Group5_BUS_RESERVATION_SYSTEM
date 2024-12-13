@@ -1,0 +1,49 @@
+kolkata delhi
+time-8:30AM
+bus-matrix
+        kolkata--->delhi
+       ____________________
+ |          -driver-            |
+ |                              |
+ |11.[X] 12.[A]   13.[A] 14.[A] |
+ |21.[X] 22.[A]   23.[A] 24.[A] |
+ |31.[X] 32.[A]   33.[A] 34.[A] |
+ |41.[X] 42.[A]   43.[A] 44.[A] |
+____________________
+-:bus-details:-
+ -------------------------------
+|Source-klokata des-delhi time-8:30AM     |
+ -------------------------------
+##
+
+C D
+time-10:00AM
+bus-matrix
+____________________
+ |    -driver-    |
+ |                |
+ | [][]  [][]     |
+ | [][]  [][]     |
+ | [X][X] [][]    |
+ | [][]  [][]     |
+____________________
+-:bus-details:-
+ -------------------------------
+|Source-C des-D time-10:00AM    |
+ -------------------------------
+##
+arambag hooghly 9 40
+Source: kultala, Destination: america, Time: 2, Seats: 56
+Seat Matrix:
+11.[A] 12.[A] 13.[A] 14.[A] |
+21.[A] 22.[A] 23.[A] 24.[A] |
+31.[A] 32.[A] 33.[A] 34.[A] |
+41.[A] 42.[A] 43.[A] 44.[A] |
+
+Source: durgapur, Destination: arambag, Time: 3, Seats: 40
+Seat Matrix:
+11.[A] 12.[A] 13.[A] 14.[A] |
+21.[A] 22.[A] 23.[A] 24.[A] |
+31.[A] 32.[A] 33.[A] 34.[A] |
+41.[A] 42.[A] 43.[A] 44.[A] |
+
