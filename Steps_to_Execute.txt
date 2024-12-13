@@ -1,0 +1,50 @@
+
+Steps to Execute
+
+Prerequisites
+1. Install GCC compiler for C programs.
+2. Ensure the system supports socket programming (Linux recommended).
+3. Create the required text files:
+   - users.txt: Store user credentials.
+   - bus.txt: Store bus details.
+
+Server Execution
+1. Open a terminal.
+2. Compile the server code:
+   gcc -o server server.c
+3. Run the server:
+   ./server
+4. The server will start listening for client connections on port 8080.
+
+Client Execution
+1. Open another terminal.
+2. Compile the client code:
+   gcc -o client client.c
+3. Run the client:
+   ./client
+4. Interact with the system by following the on-screen instructions:
+   - Select User or Admin.
+   - Provide login credentials or sign up if using the system for the first time.
+   - Use features like searching for buses, booking tickets, and managing buses (Admin).
+
+Files Used
+1. users.txt:
+   - Format:
+     username password
+   - Example:
+     user1 password123
+     admin adminpass
+2. bus.txt:
+   - Format:
+     BusID Source Destination SeatsAvailable
+
+Testing the System
+1. Start the server before running any clients.
+2. Run multiple clients (in separate terminals) to simulate different users.
+3. Perform various operations:
+   - Users: Search, book tickets, view details.
+   - Admins: Add or update bus details.
+
+Shutting Down
+1. Stop the server using Ctrl+C in the terminal where the server is running.
+2. Ensure all client terminals are closed.
